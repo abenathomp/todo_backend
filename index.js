@@ -61,6 +61,8 @@ dotenv.config();
      res.json(result)
  });
 
+ 
+
  //connect to mongoDB Atlas
  mongoose.connect(process.env.MONGO_DB_CON_STRING,(error)=>{
      if(error){
